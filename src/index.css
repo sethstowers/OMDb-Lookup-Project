@@ -219,7 +219,6 @@ a {
   margin: 100px auto 200px auto;
 }
 
-
 .movies__loading--spinner {
   display: none !important;
 }
@@ -335,7 +334,7 @@ a {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  
+
   text-align: center;
   margin-bottom: 4px;
 }
@@ -435,9 +434,7 @@ footer {
     height: 1125px;
     width: 100%;
   }
-
 }
-
 
 @media (max-width: 850px) {
   .input__wrapper {
@@ -493,6 +490,9 @@ footer {
   .landing__img {
     width: 80%;
   }
+  .home__header {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 631px) {
@@ -511,6 +511,5 @@ footer {
 
 @media (max-width: 529px) {
   .searched--movie__container {
-  
   }
 }
